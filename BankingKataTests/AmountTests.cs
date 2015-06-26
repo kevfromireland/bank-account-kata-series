@@ -14,5 +14,15 @@ namespace BankingKataTests
 
             Assert.That(amount1, Is.EqualTo(amount2));
         }
+
+        [Test]
+        public void ComparisonAndOrderingWorks()
+        {
+            Amount smaller = new Amount(1);
+            Amount larger = new Amount(2);
+
+            Assert.That(smaller, Is.LessThan(larger));
+            Assert.That(larger, Is.GreaterThan(smaller));
+        }
     }
 }
