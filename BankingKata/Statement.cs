@@ -16,7 +16,7 @@ namespace BankingKata
         public void PrintBalance()
         {
             var balance = m_Account.CalculateBalance();
-            m_StatementWriter.WriteLine("Balance: £{0}", balance);
+            m_StatementWriter.WriteLine("Balance: {0}", balance);
         }
     }
 }
