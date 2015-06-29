@@ -52,7 +52,7 @@
     <Compile Include="MoneyTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatementTests.cs" />
-    <Compile Include="TransactionLogTests.cs" />
+    <Compile Include="LedgerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BankingKata\BankingKata.csproj">
